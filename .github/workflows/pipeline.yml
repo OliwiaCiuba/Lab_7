@@ -100,4 +100,4 @@ jobs:
 
       - name: Run new tests
         run: |
-          cd ./Lab_7/env_415916 && pytest new_tests.py
+          cd ./Lab_7/env_415916 && pytest calculator_test.py::test_suma_kolumn calculator_test.py::test_srednia_kolumn
