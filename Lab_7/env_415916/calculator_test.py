@@ -1,4 +1,8 @@
-from calculator import dodawanie,dzielenie,mnozenie,odejmowanie,suma_kolumn, srednia_kolumn
+from calculator import (
+    dodawanie, dzielenie, mnozenie, odejmowanie,
+    suma_kolumn, srednia_kolumn
+)
+import pandas as pd
 def test_dodawanie():
     assert dodawanie(2, 3) == 5
     assert dodawanie(-1, 1) == 0
