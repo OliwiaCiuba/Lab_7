@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pdd
+import pandas as pd
 
 def dodawanie(liczba1, liczba2):
     return np.add(liczba1, liczba2)
