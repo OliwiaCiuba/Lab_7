@@ -1,4 +1,4 @@
-from calculator import dodawanie,dzielenie,mnozenie,odejmowanie,suma_kolumn, srednia_kolumn
+ffrom calculator import dodawanie,dzielenie,mnozenie,odejmowanie,suma_kolumn, srednia_kolumn
 def test_dodawanie():
     assert dodawanie(2, 3) == 5
     assert dodawanie(-1, 1) == 0
